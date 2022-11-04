@@ -16,7 +16,9 @@ export default function Index() {
           crossorigin="true"
         />
       </Head>
-      <Header />
+      <div className="relative z-50">
+        <Header />
+      </div>
       <Home />
     </div>
   );

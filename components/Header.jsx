@@ -11,12 +11,12 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="h-[5.5rem] bg-secondary flex   ">
-      <div className="mx-4 flex justify-between text-white items-center w-full h-full">
+    <div className="h-[5.5rem] bg-secondary flex relative   ">
+      <div className="container mx-auto flex justify-between text-white items-center w-full h-full">
         <Logo />
         <nav
           className={`sm:bg-none sm:flex w-full h-full justify-center items-center ${
-            isOpen && "hidden"
+            !isOpen && "hidden"
           }`}
         >
           <span

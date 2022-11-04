@@ -21,7 +21,6 @@ module.exports = {
         secondary: "#222831 ",
       },
       fontFamily: {
-        dancing: ["Dancing Script", "cursive"],
         sans: ["Poppins", "sans-serif"],
       },
     },
